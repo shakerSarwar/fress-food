@@ -1,0 +1,15 @@
+header nav a {
+  margin-left: 20px;
+  font-weight: bold;
+  color: white !important;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -10px;
+}
+.login-Button{
+  width: 80px;
+}

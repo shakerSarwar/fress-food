@@ -1,0 +1,29 @@
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;  
+    display: inline-block;
+}
+label{
+    font-weight: 700;
+}
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #DCFFEC;
+}
+.inputfile, label {
+	cursor: pointer; /* "hand" cursor */
+}
+.upload-image-area{
+    background-color: #DCFFEC;
+    padding: 1px 14px;
+    border-radius: 6px
+}

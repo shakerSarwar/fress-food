@@ -1,0 +1,22 @@
+aside a {
+  display: block;
+  color: white;
+  font-weight: 700;
+  padding: 15px;
+}
+aside a:hover {
+  background-color: #2d524a;
+  text-decoration: none;
+  color: white;
+}
+aside {
+  background-color: #203d37;
+  min-height: 100vh;
+  padding: 35px 30px 20px 0px;
+}
+
+@media only screen and (max-width: 576px) {
+  aside {
+    min-height: 20vh;
+  }
+}
